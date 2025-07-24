@@ -14,7 +14,7 @@ import time
 
 # Cấu hình Appium
 APPIUM_SERVER = "http://localhost:4723"
-ANDROID_PACKAGE = "jp.co.mobileit.SBI_FX"
+ANDROID_PACKAGE = "inc.guide.sbi.fx.dev"
 ANDROID_ACTIVITY = ".MainActivity"
 ANDROID_DEVICE_NAME = "Android Device"
 

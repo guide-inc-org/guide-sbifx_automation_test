@@ -63,28 +63,28 @@ def create_object_repository_excel():
         {
             'ObjectName': 'NEWS_LIST_CONTAINER',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.RecyclerView[@resource-id="jp.co.mobileit.SBI_FX:id/news_list_recycler"]',
+            'LocatorValue': '//android.widget.RecyclerView[@resource-id="inc.guide.sbi.fx.dev:id/news_list_recycler"]',
             'Description': 'Container chứa danh sách news',
             'Screen': 'NewsListScreen'
         },
         {
             'ObjectName': 'NEWS_ITEM_FIRST',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.RecyclerView[@resource-id="jp.co.mobileit.SBI_FX:id/news_list_recycler"]/android.view.ViewGroup[1]',
+            'LocatorValue': '//android.widget.RecyclerView[@resource-id="inc.guide.sbi.fx.dev:id/news_list_recycler"]/android.view.ViewGroup[1]',
             'Description': 'News item đầu tiên trong danh sách',
             'Screen': 'NewsListScreen'
         },
         {
             'ObjectName': 'NEWS_TITLE_FIRST',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.RecyclerView[@resource-id="jp.co.mobileit.SBI_FX:id/news_list_recycler"]/android.view.ViewGroup[1]//android.widget.TextView[@resource-id="jp.co.mobileit.SBI_FX:id/news_title_text"]',
+            'LocatorValue': '//android.widget.RecyclerView[@resource-id="inc.guide.sbi.fx.dev:id/news_list_recycler"]/android.view.ViewGroup[1]//android.widget.TextView[@resource-id="inc.guide.sbi.fx.dev:id/news_title_text"]',
             'Description': 'Tiêu đề của news đầu tiên',
             'Screen': 'NewsListScreen'
         },
         {
             'ObjectName': 'NEWS_DATE_FIRST',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.RecyclerView[@resource-id="jp.co.mobileit.SBI_FX:id/news_list_recycler"]/android.view.ViewGroup[1]//android.widget.TextView[@resource-id="jp.co.mobileit.SBI_FX:id/news_date_text"]',
+            'LocatorValue': '//android.widget.RecyclerView[@resource-id="inc.guide.sbi.fx.dev:id/news_list_recycler"]/android.view.ViewGroup[1]//android.widget.TextView[@resource-id="inc.guide.sbi.fx.dev:id/news_date_text"]',
             'Description': 'Ngày của news đầu tiên',
             'Screen': 'NewsListScreen'
         },
@@ -93,14 +93,14 @@ def create_object_repository_excel():
         {
             'ObjectName': 'NEWS_DETAIL_TITLE',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.TextView[@resource-id="jp.co.mobileit.SBI_FX:id/news_detail_title_text"]',
+            'LocatorValue': '//android.widget.TextView[@resource-id="inc.guide.sbi.fx.dev:id/news_detail_title_text"]',
             'Description': 'Tiêu đề chi tiết của news',
             'Screen': 'NewsDetailScreen'
         },
         {
             'ObjectName': 'NEWS_DETAIL_CONTENT',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.TextView[@resource-id="jp.co.mobileit.SBI_FX:id/news_detail_content_text"]',
+            'LocatorValue': '//android.widget.TextView[@resource-id="inc.guide.sbi.fx.dev:id/news_detail_content_text"]',
             'Description': 'Nội dung chi tiết của news',
             'Screen': 'NewsDetailScreen'
         },
@@ -116,21 +116,21 @@ def create_object_repository_excel():
         {
             'ObjectName': 'FILTER_BUTTON',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.ImageButton[@resource-id="jp.co.mobileit.SBI_FX:id/filter_button"]',
+            'LocatorValue': '//android.widget.ImageButton[@resource-id="inc.guide.sbi.fx.dev:id/filter_button"]',
             'Description': 'Nút filter để mở màn hình filter',
             'Screen': 'NewsListScreen'
         },
         {
             'ObjectName': 'FILTER_DATE_FROM',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.EditText[@resource-id="jp.co.mobileit.SBI_FX:id/filter_date_from_input"]',
+            'LocatorValue': '//android.widget.EditText[@resource-id="inc.guide.sbi.fx.dev:id/filter_date_from_input"]',
             'Description': 'Input chọn ngày bắt đầu filter',
             'Screen': 'FilterScreen'
         },
         {
             'ObjectName': 'FILTER_DATE_TO',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.EditText[@resource-id="jp.co.mobileit.SBI_FX:id/filter_date_to_input"]',
+            'LocatorValue': '//android.widget.EditText[@resource-id="inc.guide.sbi.fx.dev:id/filter_date_to_input"]',
             'Description': 'Input chọn ngày kết thúc filter',
             'Screen': 'FilterScreen'
         },
@@ -153,14 +153,14 @@ def create_object_repository_excel():
         {
             'ObjectName': 'LOADING_INDICATOR',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.ProgressBar[@resource-id="jp.co.mobileit.SBI_FX:id/loading_indicator"]',
+            'LocatorValue': '//android.widget.ProgressBar[@resource-id="inc.guide.sbi.fx.dev:id/loading_indicator"]',
             'Description': 'Loading indicator khi đang tải dữ liệu',
             'Screen': 'CommonElements'
         },
         {
             'ObjectName': 'ERROR_MESSAGE',
             'LocatorType': 'xpath',
-            'LocatorValue': '//android.widget.TextView[@resource-id="jp.co.mobileit.SBI_FX:id/error_message_text"]',
+            'LocatorValue': '//android.widget.TextView[@resource-id="inc.guide.sbi.fx.dev:id/error_message_text"]',
             'Description': 'Thông báo lỗi',
             'Screen': 'CommonElements'
         },

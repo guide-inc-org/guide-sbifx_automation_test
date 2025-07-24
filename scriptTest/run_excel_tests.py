@@ -8,8 +8,7 @@ import sys
 import os
 import time
 
-# Thêm thư mục hiện tại vào Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from framework.core.driver_manager import DriverManager
 from framework.tests.excel_test_runner import ExcelTestRunner
@@ -49,4 +48,4 @@ def main():
     print("✅ Hoàn thành!")
 
 if __name__ == "__main__":
-    main() 
+    main()

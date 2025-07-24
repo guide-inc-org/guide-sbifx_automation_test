@@ -1,0 +1,9 @@
+MARKET_TAB | xpath | //android.view.View[@content-desc='マーケット'] | Market tab | NewsList
+SWAP_TAB | xpath | //android.view.View[@content-desc='スワップ\nタブ: 2/4'] | Swap tab | NewsList
+NEWS_TAB | xpath | //android.view.View[@content-desc='ニュース\nタブ: 3/4'] | News tab | NewsList
+ECONOMIC_TAB | xpath | //android.view.View[@content-desc='経済指標\nタブ: 4/4'] | Economic tab | NewsList
+CHART_TAB | xpath | //android.widget.ImageView[@content-desc='チャート'] | Chart tab | NewsList
+SPEED_ORDER_TAB | xpath | //android.widget.ImageView[@content-desc='スピード注文'] | Speed Order tab | NewsList
+LOGIN_TAB | xpath | //android.widget.ImageView[@content-desc='ログイン'] | Login tab | NewsList
+WEBSITE_TAB | xpath | //android.widget.ImageView[@content-desc='ウェブサイト'] | Website tab | NewsList
+MENU_TAB | xpath | //android.widget.ImageView[@content-desc='メニュー'] | Menu tab | NewsList

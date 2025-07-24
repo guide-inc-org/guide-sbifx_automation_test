@@ -38,7 +38,7 @@ def create_object_repository_from_xpath():
         print("📝 Đang tạo Object Repository từ XPath...")
         
         # Import function từ module
-        sys.path.append('framework/utils')
+        sys.path.append(os.path.join(os.path.dirname(__file__), "framework/utils"))
         from create_object_repository_excel import create_object_repository_from_xpath_file
         
         # Tạo Object Repository từ file xpath_summary.txt
@@ -106,4 +106,4 @@ def main():
     print("\n🎉 Hoàn thành!")
 
 if __name__ == "__main__":
-    main() 
+    main()

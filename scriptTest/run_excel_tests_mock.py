@@ -17,7 +17,7 @@ class MockDriver:
     """Mock driver để mô phỏng Appium driver"""
     
     def __init__(self):
-        self.current_package = "jp.co.mobileit.SBI_FX"
+        self.current_package = "inc.guide.sbi.fx.dev"
         self.screenshots_taken = []
     
     def save_screenshot(self, filepath):

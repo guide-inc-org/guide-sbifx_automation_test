@@ -26,7 +26,7 @@ def setup_driver():
     options = UiAutomator2Options()
     options.platform_name = "Android"
     options.device_name = "Android Device"
-    options.appPackage = "jp.co.mobileit.SBI_FX"
+    options.appPackage = "inc.guide.sbi.fx.dev"
     options.appActivity = ".MainActivity"
     options.no_reset = True
     
