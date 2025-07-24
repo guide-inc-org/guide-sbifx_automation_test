@@ -1,0 +1,11 @@
+Đối tượng	Lệnh chạy	Input
+//android.view.View[@content-desc='マーケット']	click	
+//android.view.View[@content-desc='レート\nタブ: 1/4']	click	
+//android.view.View[@content-desc='スワップ\nタブ: 2/4']	click	
+//android.view.View[@content-desc='ニュース\nタブ: 3/4']	click	
+//android.view.View[@content-desc='経済指標\nタブ: 4/4']	click	
+//android.widget.ImageView[@content-desc='チャート']	click	
+//android.widget.ImageView[@content-desc='スピード注文']	click	
+//android.widget.ImageView[@content-desc='ログイン']	click	
+//android.widget.ImageView[@content-desc='ウェブサイト']	click	
+//android.widget.ImageView[@content-desc='メニュー']	click	
