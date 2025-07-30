@@ -1,0 +1,23 @@
+{
+  "server": {
+    "remotePath": "/wd/hub",
+    "host": "localhost",
+    "port": 4723
+  },
+  "capabilities": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "deviceName": "1B141FDF600124",
+    "appPackage": "jp.co.mobileit.SBI_FX",
+    "appActivity": ".MainActivity",
+    "noReset": true
+  },
+  "desiredCapabilities": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "deviceName": "1B141FDF600124",
+    "appPackage": "jp.co.mobileit.SBI_FX",
+    "appActivity": ".MainActivity",
+    "noReset": true
+  }
+}
